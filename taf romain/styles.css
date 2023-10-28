@@ -1,0 +1,93 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fff; /* Fond blanc pour l'ensemble de la page */
+    color: #000; /* Texte noir */
+}
+
+header {
+    background-color: #333; /* Vous pouvez ajuster la couleur d'arrière-plan du titre si nécessaire */
+    color: #fff; /* Texte noir */
+    text-align: center;
+    padding: 20px;
+}
+
+.centered {
+    text-align: center;
+}
+
+main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 20px;
+    padding: 20px;
+    background-color: #333; /* Fond noir pour les sections */
+    border: 1px solid #000; /* Bordure noire pour les sections */
+    border-radius: 10px; /* Coins arrondis */
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5); /* Ajoute une ombre */
+}
+
+h2 {
+    font-size: 24px;
+    color: #fff; /* Texte blanc */
+}
+
+#about h2 img {
+    max-width: 25px; /* Définissez la largeur maximale souhaitée */
+    height: auto; /* Conservez le rapport hauteur/largeur */
+}
+
+p {
+    font-size: 16px;
+    line-height: 1.5;
+    text-align: justify;
+    color: #fff; /* Texte blanc */
+}
+
+.about-content {
+    display: flex;
+    align-items: center;
+}
+
+.about-image {
+    flex: 1;
+    padding: 20px;
+}
+
+.about-text {
+    flex: 2;
+    padding: 20px;
+}
+
+.about-image img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 50%; /* Photo de profil ronde */
+}
+
+.social-icons li {
+    display: inline-block; /* Affiche les icônes côte à côte */
+    margin: 0 90px;
+}
+
+.social-icons img {
+    width: 50px; /* Ajustez la taille des icônes selon vos besoins */
+    height: auto; /* Conservez le rapport hauteur/largeur */
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+
+footer a {
+    color: #fff;
+    text-decoration: none;
+}
